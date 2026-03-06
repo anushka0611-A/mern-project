@@ -21,7 +21,7 @@ import evalImg from "../assets/ai-ans.png"
 import resumeImg from "../assets/resume.png"
 import pdfImg from "../assets/pdf.png"
 import analyticsImg from "../assets/history.png"
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const { userData } = useSelector((state) => state.user)
