@@ -10,7 +10,7 @@ import InterviewHistory from "./pages/InterviewHistory";
 import Pricing from './pages/Pricing';
 import InterviewReport from './pages/InterviewReport'
 
-export const serverUrl = "https://interviewserver-byz7.onrender.com"
+export const serverUrl = "https://mern-project-new-k9x9.onrender.com"
 
 const App = () => {
   const dispatch = useDispatch();
