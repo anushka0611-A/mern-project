@@ -11,7 +11,7 @@ import axios from "axios";
 import { useSelector, useDispatch } from "react-redux";
 import { setUserData } from "../redux/userSlice"; // adjust path if needed
 
-const serverUrl = "http://localhost:8000"; // change if deployed
+const serverUrl = "https://mern-project-new-k9x9.onrender.com"; // change if deployed
 
 const Step1SetUp = ({ onStart }) => {
   const { userData } = useSelector((state) => state.user);
