@@ -9,7 +9,7 @@ import axios from "axios";
 
 const Step2Interview = ({ interviewData, onFinish }) => {
   const { interviewId, questions, userName } = interviewData;
-  const serverUrl = "http://localhost:8000"; // replace with your backend URL
+  const serverUrl = "https://mern-project-new-k9x9.onrender.com"; // replace with your backend URL
 
   const [isIntroPhase, setIntroPhase] = useState(true);
   const [isMicOn, setIsMicOn] = useState(true);
